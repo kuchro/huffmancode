@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.Objects;
 
 public class NodePriorityQueue {
-    private static final int INIT_CAPACITY = 100;
+    private static final int INIT_CAPACITY = 10;
     private Node[] queue;
     private int size;
     public int size() {
